@@ -1,62 +1,32 @@
 package superficies;
 
 /**
- *
+ * Esta es la clase donde se crea el objeto
  * @author dpereiracarrillo
  */
-public class Modelo { 
+public class Modelo {
+
+
+
+public float height,length,area;
+
+
+    public Modelo(){
+        
+    }
     
-    float squareArea;
-    float sideLength;
-    float sideHeight;
-    float rectangleArea;
-    float baseLength;
-    float height;
-    float triangleArea;
-    float radius;
-    float circleArea;
-
-    public float getSquareArea() {
-        return squareArea;
+    public Modelo(float length,float area){
+        this.length=length;
+        this.area=area;
+        
     }
-
-    public void setSquareArea(float squareArea) {
-        this.squareArea = squareArea;
+    public Modelo(float height, float length, float area) {
+        this.height = height;
+        this.length = length;
+        this.area = area;
     }
-
-    public float getSideLength() {
-        return sideLength;
-    }
-
-    public void setSideLength(float sideLength) {
-        this.sideLength = sideLength;
-    }
-
-    public float getSideHeight() {
-        return sideHeight;
-    }
-
-    public void setSideHeight(float sideHeight) {
-        this.sideHeight = sideHeight;
-    }
-
-    public float getRectangleArea() {
-        return rectangleArea;
-    }
-
-    public void setRectangleArea(float rectangleArea) {
-        this.rectangleArea = rectangleArea;
-    }
-
-    public float getBaseLength() {
-        return baseLength;
-    }
-
-    public void setBaseLength(float baseLength) {
-        this.baseLength = baseLength;
-    }
-
-    public float getHeight() {
+    
+ public float getHeight() {
         return height;
     }
 
@@ -64,30 +34,25 @@ public class Modelo {
         this.height = height;
     }
 
-    public float getTriangleArea() {
-        return triangleArea;
+    public float getLength() {
+        return length;
     }
 
-    public void setTriangleArea(float triangleArea) {
-        this.triangleArea = triangleArea;
+    public void setLength(float length) {
+        this.length = length;
     }
 
-    public float getRadius() {
-        return radius;
+    public float getArea() {
+        return area;
     }
 
-    public void setRadius(float radius) {
-        this.radius = radius;
+    public void setArea(float area) {
+        this.area = area;
     }
 
-    public float getCircleArea() {
-        return circleArea;
-    }
+   
 
-    public void setCircleArea(float circleArea) {
-        this.circleArea = circleArea;
-    }
-    
-    
     
 }
+
+
