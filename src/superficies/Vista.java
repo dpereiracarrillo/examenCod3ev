@@ -1,7 +1,7 @@
 package superficies;
 
 /**
- * La clase vista sirve visualizar los datos y el resultado
+ * visualiza los datos y el resultado
  * @author dpereiracarrillo
  */
 public class Vista {
