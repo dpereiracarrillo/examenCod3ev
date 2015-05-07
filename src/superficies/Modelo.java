@@ -11,7 +11,9 @@ public class Modelo {
 public float height,length,area;
 
 
-  //constructores
+ /*constructores
+
+*/
     public Modelo() {
 
     }
@@ -28,7 +30,9 @@ public float height,length,area;
         this.area = area;
     }
 
-    //getters y setters
+    /*getters y setters
+    
+    */
     public float getHeight() {
         return height;
     }
