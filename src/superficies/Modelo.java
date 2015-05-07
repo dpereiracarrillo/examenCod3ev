@@ -11,22 +11,25 @@ public class Modelo {
 public float height,length,area;
 
 
-    public Modelo(){
-        
+  //constructores
+    public Modelo() {
+
     }
-    
-    public Modelo(float length,float area){
-        this.length=length;
-        this.area=area;
-        
+
+    public Modelo(float length, float area) {
+        this.length = length;
+        this.area = area;
+
     }
+
     public Modelo(float height, float length, float area) {
         this.height = height;
         this.length = length;
         this.area = area;
     }
-    
- public float getHeight() {
+
+    //getters y setters
+    public float getHeight() {
         return height;
     }
 
