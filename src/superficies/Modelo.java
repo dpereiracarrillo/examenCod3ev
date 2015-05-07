@@ -1,19 +1,19 @@
 package superficies;
 
 /**
- * Esta es la clase donde se crea el objeto
+ * Clase donde está el objeto
+ *
  * @author dpereiracarrillo
  */
 public class Modelo {
 
+    public float height, length, area, base, radius;
 
-
-public float height,length,area;
-
-
- /*constructores
-
-*/
+    /**
+     * constructores
+     *
+     *
+     */
     public Modelo() {
 
     }
@@ -30,9 +30,10 @@ public float height,length,area;
         this.area = area;
     }
 
-    /*getters y setters
-    
-    */
+    /**
+     * getters y setters
+     *
+     */
     public float getHeight() {
         return height;
     }
@@ -57,9 +58,21 @@ public float height,length,area;
         this.area = area;
     }
 
-   
+    public float getBase() {
+        return base;
+    }
 
-    
+    public void setBase(float base) {
+        this.base = base;
+    }
+
+    public float getRadius() {
+        return radius;
+    }
+
+    public void setRadius(float radius) {
+        this.radius = radius;
+    }
+
 }
-
 
